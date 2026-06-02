@@ -1,0 +1,80 @@
+data type
+
+1. Primitive (Basic) Data Types
+These are the most fundamental data types built into almost every programming language. They hold a single value.
+
+Integer (int)
+
+What it is: Whole numbers, both positive and negative, without decimals.
+
+Examples: 42, -7, 0
+
+Floating-Point (float / double)
+
+What it is: Numbers with fractional parts or decimal points. double typically has double the precision of a float.
+
+Examples: 3.14, -0.001, 2.0
+
+Character (char)
+
+What it is: A single letter, digit, punctuation mark, or space. Usually enclosed in single quotes.
+
+Examples: 'a', 'Z', '9', '$'
+
+Boolean (bool)
+
+What it is: A logical type that can only hold one of two values: True or False.
+
+Use case: Used for conditional logic and decision-making (e.g., is_logged_in = True).
+
+2. Composite (Collection) Data Types
+These allow you to group multiple values together.
+
+String (str or String)
+
+What it is: A sequence of characters treated as text. Effectively a collection of chars.
+
+Examples: "Hello, World!", "12345" (treated as text, not numbers).
+
+Array / List
+
+What it is: An ordered collection of elements. In many languages (like C++ or Java), arrays must contain the same data type and have a fixed size. In modern languages (like Python), lists can hold mixed types and grow dynamically.
+
+Example: [10, 20, 30, 40]
+
+Tuple
+
+What it is: An ordered collection similar to a list, but immutable (meaning it cannot be changed after it is created).
+
+Example: (latitude, longitude) -> (40.7128, -74.0060)
+
+Dictionary / Map / Object (dict)
+
+What it is: A collection of key-value pairs. Instead of accessing data by a numerical index, you access it using a unique key.
+
+Example: {"name": "Alice", "age": 25}
+
+3. Abstract / Advanced Data Types
+These are more complex structures often used to organize data efficiently in memory.
+
+Pointer / Reference: Stores the memory address of another value rather than the value itself.
+
+Null / Void: Represents the intentional absence of any value or type.
+
+Custom Classes / Structs: User-defined types that bundle data and behaviors together (the core of Object-Oriented Programming).
+
+💡 Key Concepts to Remember
+Static vs. Dynamic Typing
+Statically Typed (e.g., Java, C++, TypeScript): You must explicitly declare the data type of a variable, and it cannot change later.
+
+Java
+int number = 5; // Fixed as an integer
+Dynamically Typed (e.g., Python, JavaScript, Ruby): The language figures out the data type at runtime. Variables can change types freely.
+
+Python
+x = 5       # x is an integer
+x = "five"  # Now x is a string
+Strong vs. Weak Typing
+Strongly Typed (e.g., Python, Java): The language strictly enforces type rules. Trying to add a string and a number will throw an error ("5" + 2 results in an error).
+
+Weakly Typed (e.g., JavaScript): The language will make implicit type conversions behind the scenes ("5" + 2 might quietly become "52").
