@@ -1,0 +1,17 @@
+python 3.13.13  
+ . venv(virtual environmental)
+ open vs 
+ .import pyfiglet # a third-party package — NOT built into Python
+  banner = pyfiglet.figlet_format("venv works!") 
+  print(banner)
+THEN OPEN THE TERMINAL AND TYPE
+1. python -m venv venv
+2. popap a window on side 'yes'
+3. activate the venv type the terminal
+4. Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+    
+5. venv\Scripts\Activate.ps1
+
+ python AI code generator is COLLABE .GOOGLE
+ image upload by link
+code > !imagelink
