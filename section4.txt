@@ -1,0 +1,72 @@
+Win + Pause / Break - System About
+
+Win + I - Settings
+
+Win + X - Power User Menu
+
+Alt + F4 - Close
+
+Ctrl Shift Escape - Task Manager
+
+Ctrl Alt Delete
+
+Alt + tab (shift)
+
+ctrl +z  undo
+ctrl+a select all
+ctrl+c copy
+ctrl+v paste
+ctrl+y reudo
+
+prt sc   snipped screenshot+screen record
+win+shift+s  snipped screenshot
+win+prt sc  fullscreen screenshot
+win+alt+r full screen record
+
+Win + R - Run (search application)
+
+Win + H - Speech to text (Can even type Malayalam) (eg..microsoft word )
+
+Win Shift S
+
+Windows + PrintScr - Fullscreen
+
+Print Screen + Windows Snipping tool
+
+Win + Alt + R - Record
+
+Windows + Ctrl → Open New Virtual Desktop
+Ctrl + Arrow Keys → Move between desktops
+Ctrl + Alt + Tab → Switch tabs
+Windows Gestures
+Settings → Bluetooth & Devices → Touchpad
+
+Mouse: Left click & Right click (Alternatives)
+
+Tap with one finger → Select
+Tap with two fingers → Right click
+Drag with two fingers → Scroll
+Pinch to Zoom
+
+Browsing web page or text: single click, double click, triple click
+
+Three finger swipes → Up, Down, Right, click
+
+Switch between desktops → Four finger swipe left
+
+Docs.new   (for new docs in google)
+
+Ctrl+shift+j   (justification in docs etc)
+Ctrl+shift+.   (for up size the font)
+Ctrl+shift+,    (reduce the size font)
+Ctrl+enter      (new page)
+Ctrl+k            (link paste on docs)
+Ctrl+/   (keyboard shortcut)
+Ctrl+f    (find words in docs
+Ctrl+h   (find and replace words in docs)
+ctrl+w    (close tab)
+ctrl+shift+t    (redo tab)
+
+
+
+notebookLm    (for research larger files)
