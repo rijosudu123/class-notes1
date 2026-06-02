@@ -1,0 +1,24 @@
+1. Errors vs. ExceptionsWhile often used interchangeably, there is a technical distinction between the two in many programming languages.FeatureErrorExceptionWhat it isSevere system-level problems that an application usually cannot recover from.Anomalous conditions or events that a program can catch and handle.CauseUsually external to the code (e.g., system running out of memory, hardware failure).Caused by the code itself or invalid environment conditions (e.g., dividing by zero, missing file).HandlingCannot/should not be caught. Program typically terminates.Can be caught and resolved gracefully using specific syntax.2. Types of ExceptionsExceptions generally fall into three main categories:Compile-Time Exceptions (Checked Exceptions): * These are checked by the compiler before the code runs. The language forces you to handle them.Example: Trying to read a file that might not exist (FileNotFoundException).Runtime Exceptions (Unchecked Exceptions): * These occur while the program is actively running, usually due to bad logic or faulty data. The compiler won't force you to write code for these, but they will crash the app if they occur.Example: Dividing a number by zero (ArithmeticException) or accessing an index outside an array's bounds (IndexOutOfBoundsException).Errors:As mentioned above, these are critical infrastructure failures.Example: OutOfMemoryError or StackOverflowError.3. The Core Syntax: try-catch-finallyMost modern languages (Python, Java, JavaScript, C++, C#) use a variation of the Try-Catch block to isolate risky code and handle failures.How it works:Python# Python Example
+try:
+    # 1. Write the "risky" code here
+    numerator = 10
+    denominator = int(input("Enter a number: "))
+    result = numerator / denominator
+
+except ZeroDivisionError:
+    # 2. This code runs ONLY if a ZeroDivisionError happens in the try block
+    print("Oops! You cannot divide by zero.")
+
+except ValueError:
+    # 3. You can chain multiple catch blocks for different types of errors
+    print("Please enter a valid integer.")
+
+else:
+    # 4. (Optional) Runs ONLY if the try block succeeded with NO exceptions
+    print(f"Success! The result is {result}")
+
+finally:
+    # 5. (Optional) ALWAYS runs, regardless of whether an exception occurred.
+    # Perfect for cleanup tasks like closing files or database connections.
+    print("Cleaning up resources...")
+4. Throwing (or Raising) ExceptionsYou don't just have to wait around for the system to break; you can intentionally trigger your own exceptions when business rules are violated. This is known as throwing (JavaScript/Java/C++) or raising (Python) an exception.Java: throw new IllegalArgumentException("Age cannot be negative");Python: raise ValueError("Age cannot be negative")JavaScript: throw new Error("Age cannot be negative");
